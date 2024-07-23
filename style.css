@@ -1,0 +1,146 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #f8b500, #ffce00);
+    color: #333;
+}
+
+/* Custom font for headers */
+h1, h2 {
+    font-family: 'Pacifico', cursive;
+    color: #ce397f; /* Dairy Milk purple */
+}
+
+header {
+    text-align: center;
+    background-color: #5d3a9b;
+    color: #fff;
+    padding: 1em 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+    background: #fef5e7; /* Light background for contrast */
+    
+}
+
+.candy-info, .nutritional-info {
+    max-width: 800px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 2em;
+    background: rgba(255, 255, 255, 0.9); /* Semi-transparent background */
+    padding: 1em;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.candy-info img, .nutritional-info img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 2em 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-content img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 1em;
+}
+
+/* Contact form styling */
+.footer-content form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.footer-content input, .footer-content textarea {
+    margin-bottom: 1em;
+    padding: 0.5em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.footer-content button {
+    padding: 0.5em;
+    background-color: #ffce00;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.footer-content button:hover {
+    background-color: #f8b500;
+}
+
+/* Grid layout for Dairy Milk types */
+.dairy-milk-types {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1em;
+}
+
+.type {
+    text-align: center;
+}
+
+.type img {
+    width: 200px; 
+    height: 200px; 
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Gradient background enhancement */
+.candy-info {
+    background: linear-gradient(120deg, rgba(93, 58, 155, 0.9), rgba(255, 255, 255, 0.9));
+}
+
+.nutritional-info {
+    background: linear-gradient(120deg, rgba(255, 255, 255, 0.9), rgba(93, 58, 155, 0.9));
+}
+
+/* Multiple background images */
+body {
+    background: url('images/dairymilk.jpg'), url('background2.jpg');
+    background-size: cover, contain;
+    background-blend-mode: overlay;
+}
+
+
+/* Hover effect */
+.footer-content button:hover {
+    background-color: #ffce00;
+    color: #5d3a9b;
+    transform: scale(1.05);
+}
+
+/* SVG enhancement */
+.logo {
+    width: 50px;
+    height: 50px;
+    fill: #ffce00;
+}
+
+.logo:hover {
+    fill: #f8b500;
+}
